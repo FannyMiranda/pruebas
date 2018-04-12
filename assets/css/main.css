@@ -1,0 +1,70 @@
+#header_wrapper {
+    background: url("../images/Australia1.jpg") no-repeat center top;
+    min-height: 800px;
+    width: 100%;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    overflow: auto;
+    
+
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 940px;
+    list-style: none;
+    top: 30px;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    margin-right: 20px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+nav ul li.selected a {
+    color: #fff;
+}
+#mobile{
+display: none;
+}
+
+@media (max-width: 770px){
+    #mobile{
+display: inline;
+}
+
+
+#desktop{
+  display: none;
+
+}
+}
+
+
+
+
+    
+
+ 
